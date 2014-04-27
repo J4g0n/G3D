@@ -1,0 +1,14 @@
+1. Le centre de l'homothétie est celui du repère auquel on ajoute la
+translation éventuelle.
+
+2. La rotation se fait par rapport à l'axe des x.
+	L'ordre d'exécution est l'ordre inverse que celui donné par le
+programmeur. Ici la translation est faite avant la rotation.
+
+3. Pour faire tourner l'objet sur une de ses extrémités, on fait
+coincider cette extrémité avec l'un des axes du repère qui détermine la
+rotation. On peut faire cela à l'aide d'une translation.
+
+4. Cas 1: la rotation est appliquée puis la translation (ou sans
+translation)
+	 Cas 2: rotation après translation.
